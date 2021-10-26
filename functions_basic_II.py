@@ -3,8 +3,8 @@
 
 def countdown(n):
     newList = []
-    for n in range(n, -1, -1):
-        newList.append(n)
+    for i in range(n, -1, -1):
+        newList.append(i)
     return newList
 
 print(countdown(5))
