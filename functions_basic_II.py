@@ -24,7 +24,8 @@ print(print_and_return([1, 2]))
 # Example: first_plus_length([1,2,3,4,5]) should return 6 (first value: 1 + length: 5)
 
 def first_plus_length(list):
-    return list[0] + len(list)
+    result = list[0] + len(list)
+    return  result
 
 print(first_plus_length([1, 2, 3, 4, 5]))
 
